@@ -2,6 +2,7 @@ export interface xStreamToken {
     market: string;
     language: string;
     token: string;
+    coreHost?: string;
 }
 
 export interface xCloudStreamConfig {

@@ -3,6 +3,7 @@ import { defineConfig } from 'tsup';
 export default defineConfig({
   entry: {
     server: 'src/server/index.ts',
+    streaming: 'src/streaming/index.ts',
   },
   format: ['esm'],
   outDir: 'dist',

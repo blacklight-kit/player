@@ -1,6 +1,6 @@
 {
   "name": "@blacklight/player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "PolyForm-Noncommercial-1.0.0",
   "type": "module",
   "repository": {
@@ -16,6 +16,10 @@
     "./server": {
       "types": "./dist/server.d.ts",
       "import": "./dist/server.js"
+    },
+    "./streaming": {
+      "types": "./dist/streaming.d.ts",
+      "import": "./dist/streaming.js"
     }
   },
   "files": [

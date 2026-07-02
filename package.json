@@ -31,7 +31,11 @@
     "build": "pnpm run clean && pnpm run build:client && pnpm run build:server",
     "clean": "rm -rf dist/",
     "prepare": "pnpm run build",
-    "test": "pnpm run build && mocha tests/**/*.ts",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.check.json --noEmit",
+    "test:unit": "mocha tests/**/*.ts",
+    "test": "pnpm run build && pnpm run test:unit",
+    "ci": "pnpm run lint && pnpm run typecheck && pnpm run test",
     "dev": "concurrently \"pnpm run dev:server\" \"pnpm run dev:client\"",
     "dev:client": "vite build --watch",
     "dev:server": "tsup --watch"
@@ -40,6 +44,7 @@
     "react": "^18.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.2",
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
     "@types/node": "^25.9.3",
@@ -48,10 +53,12 @@
     "@vitejs/plugin-react": "^5.1.2",
     "chai": "^6.2.1",
     "concurrently": "^9.1.2",
+    "eslint": "^9.39.2",
     "mocha": "^11.7.5",
     "react": "^19.2.7",
     "sinon": "^22.0.0",
     "tsup": "^8.5.0",
+    "typescript-eslint": "^8.56.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.0",

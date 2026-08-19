@@ -7,7 +7,12 @@ export default defineConfig({
   },
   format: ['esm'],
   outDir: 'dist',
-  dts: true,
+  dts: {
+    compilerOptions: {
+      types: ['node'],
+      skipLibCheck: true,
+    },
+  },
   clean: false,
   sourcemap: true,
   target: 'es2020',

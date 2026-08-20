@@ -110,4 +110,14 @@ GitHub Actions on every push/PR to `main`:
 
 ## License
 
-[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/)
+Free software under the [AGPL-3.0](LICENSE).
+
+Use, study, modify, share and run it for any purpose, commercial use included. The
+obligation is reciprocity: distribute a modified version, or run one as a network
+service, and its recipients get the source under the same terms. No commercial
+licence is sold; these terms are the whole deal.
+
+Portions of this package are derived from Jim Kroon's MIT-licensed work; that
+notice is retained in [NOTICE](NOTICE).
+
+Contributions are certified under the [DCO](CONTRIBUTING.md) — one sign-off line.

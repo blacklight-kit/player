@@ -110,4 +110,17 @@ GitHub Actions on every push/PR to `main`:
 
 ## License
 
-[PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/)
+Dual-licensed.
+
+**Open source — [AGPL-3.0](LICENSE).** Use, study, modify, share and run it for any
+purpose, commercial use included. The obligation is reciprocity: distribute a
+modified version, or run one as a network service, and its recipients get the
+source under the same terms.
+
+**Commercial licence.** For products whose source cannot be opened, a separate
+licence is available — <mako.mmw@gmail.com>.
+
+Portions of this package are derived from Jim Kroon's MIT-licensed work; that
+notice is retained in [NOTICE](NOTICE).
+
+Contributions are covered by the CLA in [CONTRIBUTING.md](CONTRIBUTING.md).

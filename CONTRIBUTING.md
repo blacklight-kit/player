@@ -4,26 +4,24 @@ This package is part of [Blacklight](https://github.com/isamarin/blacklight).
 Development guidance lives in that repository's
 [CONTRIBUTING.md](https://github.com/isamarin/blacklight/blob/main/CONTRIBUTING.md).
 
-## Contributor Licence Agreement
+## Developer Certificate of Origin
 
-Blacklight is dual-licensed: AGPL-3.0 for everyone, plus a commercial licence for
-those who cannot open their source. That second half only works if one person holds
-the rights to the whole codebase — otherwise there is nothing to license.
+There is no CLA and no copyright assignment. This package is AGPL-3.0 and stays that
+way — no commercial licence is sold, so there is nothing your contribution needs to
+be re-licensed for. You keep your copyright.
 
-By submitting a contribution you agree that:
-
-1. You wrote it yourself, or otherwise have the right to submit it under these
-   terms, and it does not knowingly infringe anyone's rights.
-2. You grant Igor Samarin a perpetual, worldwide, irrevocable, royalty-free licence
-   to use, reproduce, modify, sublicense and distribute your contribution, including
-   the right to license it under terms other than the AGPL.
-3. You keep your own copyright. This is a licence you grant, not an assignment.
-4. Your contribution is provided as-is, with no warranty of any kind.
-
-State your agreement in the pull request description:
+What is asked is a sign-off certifying you have the right to send it: the
+[Developer Certificate of Origin 1.1](https://developercertificate.org/), the same
+one the Linux kernel uses.
 
 ```
-I have read CONTRIBUTING.md and I agree to the CLA.
+git commit -s
+```
+
+which adds:
+
+```
+Signed-off-by: Your Name <you@example.com>
 ```
 
 Questions: <mako.mmw@gmail.com>
